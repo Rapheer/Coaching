@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X UA-Compatible" content="IE=edge">
+		<link type="text/css" rel="stylesheet" href="css/main.css">
+		<style type="text/css">
+			/* Tag de envelopamento do formulario */
+			#rightSide {
+				float: right;
+				width: 50%;
+			}
+
+			#leftSide {
+				float: left;
+				width: 45%;
+			}
+		</style>
+		<title>Stream Games</title>
+	</head>
+	<body>
+		<div id="header">
+			<h1>Stream Games - O que você joga?</h1>
+			<button type="button">Cadastre-se</button>
+		</div>
+		<div id="leftSide">
+			<form action="#" method="POST">
+				<fieldset> <!-- HTML5 -->
+					<legend>Informações de Login:</legend>
+					Email: <br>
+					<input type="text" id="e-mail"></input> <br>
+					Senha: <br>
+					<input type="password" id="senha"></input>
+					<br>
+					<br>
+					<input type="submit" value="Sign in"></input>
+					<br>
+					<br>
+					<a href="recoverpass.html"><u><b>Esqueceu sua senha?</u></b></a>
+				</fieldset>
+			</form>
+		</div>
+		<div id="rightSide">
+			<p id="novocadastro">
+				<h3>Novo por aqui? </h3>
+				<h4>Cadastre-se e diga para o mundo o que você está jogando!</h4>
+				<h5>Para acessar o Stream Games é fácil. Nos informe alguns dados e em poucos minutos o mundo saberá qual foi sua conquista de hoje! Compartilhe, curta e viva o seu momento de glória.</h5>
+				<button id="btnRedirect" type="button">Sign Up</button>
+			</p>
+		</div>
+		<br>
+		<br>
+		<script type="text/javascript">
+			document.getElementById('btnRedirect').onclick = function(){
+				location.href = "cadastro.html";	
+			}
+		</script>
+	</body>
+</html>
