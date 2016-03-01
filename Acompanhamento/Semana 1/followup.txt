@@ -1,0 +1,6 @@
+	
+	- Estudar os estados (pseudo-classes) css
+	- Estudar eventos
+	- Bolar design do site
+	- Criaçao do backlog de desenvolvimento
+	
