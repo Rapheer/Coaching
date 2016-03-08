@@ -5,3 +5,12 @@
 	- Criaçao do backlog de desenvolvimento
 	
 http://www.geradorcpf.com/algoritmo_do_cpf.htm
+https://regex101.com/
+
+Bootstrap
+JQuery
+Expressão regular
+
+Node.js,
+php,
+ruby on rails
