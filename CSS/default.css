@@ -1,0 +1,35 @@
+body {
+	background-color: #AB82FF;
+}
+
+h1 {
+	color: #CD0000;
+	font-size: 40px;
+	text-align: center;
+	margin: 5%;
+}
+
+ul {
+					list-style-type: none;
+					margin: 0;
+					overflow: hidden;
+					padding: 0;
+				
+					background-color: #551A8B;
+				}
+		
+				li {
+					float: left;
+				}
+		
+				li a {
+					display: inline-block;
+					color: #FFFFFF;
+					text-align: center;
+					padding: 14px 16px;
+					text-decoration: none;
+				}
+						
+				li a:hover {
+					background-color: #AB82FF;
+				}

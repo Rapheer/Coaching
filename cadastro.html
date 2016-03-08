@@ -1,129 +1,126 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-	<title>Stream Games</title>
-	<link type="text/css" rel="stylesheet" href="css/main.css">
+	<head>
+		<meta charset="UTF-8">
+		<link type="text/css" rel="stylesheet" href="CSS/default.css">
 		
-</head>
-<body>
-<div id="header">
-			<h1>Stream Games - O que você joga?</h1>
-			<button type="button">Cadastre-se</button>
+		<style>
+			input[type="text"], select, input[type="password"] {
+				width: 100%;
+				padding: 12px 20px;
+				margin: 8px 0;
+				display: inline-block;
+				border: 1px solid;
+				border-radius: 4px;
+				box-sizing: border-box;
+			}
+			button {
+				width: 100%;
+				background-color: ;
+				color: ;
+				padding: ;
+				margin: ;
+				border: ;
+				border-radius: ;
+				cursor: ;
+			}
+			input[type=submit]:rover {
+				background-color: ;
+			}
+			div{
+				border-radius: ;
+				background-color: ;
+				padding: ;
+			}
+		</style>
+		<title>Stream Games</title>
+	</head>
+	<body>
+		<div id="header">
+			<h1>Stream Games - What you play?</h1>
 		</div>
-		
-<h4><p>Para ingressar neste mundo mágico, onde pessoas (ou não), nos contam diáriamente sobre o que e o que estão jogando! Compartilham suas conquistas, curta as tendências e converse com geeks e gamers. Monte um clã! Conquiste uma Quest! Seja quem e o que você quiser. E o melhor? É de graça!</p></h4>
-<style>
-	input[type="text"], select {
-
-		width: 100%;
-		padding: 12px 20px;
-		margin: 8px 0;
-		display: inline-block;
-		border: 1px solid;
-		border-radius: 4px;
-		box-sizing: border-box;
-	}
-
-	input[type="submit"] {
-
-		width: 100%;
-		background-color: ;
-		color: ;
-		padding: ;
-		margin: ;
-		border: ;
-		border-radius: ;
-		cursor: ;
-
-	}
-
-	input[type=submit]:rover {
-
-		background-color: ;
-
-	}
-
-	div{
-
-		border-radius: ;
-		background-color: ;
-		padding: ;
-
-	}
-</style>
-
-	<title>Stream Games</title>
-
-</head>
-<body>
-<h1>Stream Games - O que você joga?</h1>
-
-<h4><p>Cadastre-se para ingressar neste mundo mágico, onde pessoas (ou não), nos contam diáriamente sobre e o que estão jogando! Compartilhe suas conquistas, curta as tendências e converse com geeks e gamers.</p> 
-<p> Monte um clã! Conquiste uma Quest! Seja quem e o que você quiser. E o melhor? É de graça!</p></h4>
->>>>>>> 5463c5890fd886790e368afac76cbf8ed3526724
-<br>
-
-<form>
-<fieldset>
-<legend>Informações de Logon:</legend>
-	<b>Email:</b>
-	<br>
-	<input type="text" id="email"></input>
-	<br>
-	<b>Confirmação de email:</b>
-	<br>
-	<input type="text" id="confirmemail"></input>
-	<br>
-	<b>Senha:</b><br>
-	<input type="password" id="senha"></input><br>
-	<b>Confirmação de senha:</b><br>
-	<input type="password" id="confirmsenha"></input><br>
-	<br>
-</fieldset>
-
-<br>
-<br>
-
-<fieldset>
-<legend>Informações de Perfil:</legend>
-	<b>Nome:</b><br>
-	<input type="text" id="nome"></input>
-	<br>
-	<b>Sobrenome:</b><br>
-	<input type="text" id="sobrenome"></input>
-	<br>
-	<b>Apelido:</b><br>
-	<input type="text" id="apelido"></input>
-	<br>
-	<br>
-	<b>Sexo: <br> </b>
-		<input type="radio" name="gender" value="homem"></input> Homem <br>
-		<input type="radio" name="gender" value="Mulher"></input> Mulher <br>
-		<input type="radio" name="gender" value="Robô"></input> Robô <br>
-	</fieldset>
-</form>
-<br>
-<form>
-	<input type="submit" value="Confirme já!"></input>
-	<br>
-		<div>
-		<form action="action_page.php">
-		<label for="country">Estado</label>
-		<select id="country" name="estado">
-			<option value="Brasil">Brasil</option>
-			<option value="Canada">Canada</option>
-			<option value="usa">USA</option>	
-		</select>
+		<div id="menu1">
+			<ul>
+				<li><a class="active" href="#profile">Profile</a></li>
+				<li><a href="#achivements">Achivements</a></li>
+				<li><a href="#feed">Feed</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact Us</a></li>
+			</ul>
+		</div>
+		<br>
+		<form>
+			<fieldset>
+				<legend>Informações de Logon:</legend>
+				<b>Email:</b>
+				<br>
+				<input type="text" id="email" />
+				<br>
+				<b>Confirmação de email:</b>
+				<br>
+				<input type="text" id="confirmemail" />
+				<br>
+				<b>Senha:</b><br>
+				<input type="password" id="senha" /><br>
+				<b>Confirmação de senha:</b><br>
+				<input type="password" id="confirmsenha" /><br>
+				<br>
+			</fieldset>
+			<br>
+			<br>
+			<fieldset>
+				<legend>Informações de Perfil:</legend>
+				<b>Nome:</b><br>
+				<input type="text" id="nome" />
+				<br>
+				<b>Sobrenome:</b><br>
+				<input type="text" id="sobrenome" />
+				<br>
+				<b>Apelido:</b><br>
+				<input type="text" id="apelido" />
+				<br>
+				<br>
+				<b>Sexo: <br> </b>
+				<input type="radio" name="gender" value="homem" /> Homem <br>
+				<input type="radio" name="gender" value="Mulher" /> Mulher <br>
+				<input type="radio" name="gender" value="Robô" /> Robô <br>
+			</fieldset>
+			<fieldset>
+				<legend>Informações de cobrança</legend>
+				<b>CPF</b><br>
+				<input type="text" id="cpf">
+				<div>
+					<label for="country">Estado</label>
+					<select id="country" name="estado">
+						<option value="Brasil">Brasil</option>
+						<option value="Canada">Canada</option>
+						<option value="usa">USA</option>
+						</select>
+				</div>
+			</fieldset>
+			<br>
+			<button type="button" id="enviaForm">Submit NOW!</button>
 		</form>
+		<br>
+		<script type="text/javascript">
+			document.ready = function (){
+				document.getElementById('enviaForm').onclick = function () {
+					var campo_nome = document.getElementById('nome');
+					var caracteres_invalidos = '1234567890!@#$%*+_(){}-^';
 
-	</div>
-	</fieldset>
+					if (nome.value.length < 3){
+						alert("nome inválido");
+						return;
+					}
 
-</form>
-<br>
-<form>
-	<input type="submit" value="Submit NOW!"></input>
-</form>
-</body>
+					for(var i = 0, tamanho = caracteres_invalidos.length; i < tamanho; i++) {
+						if (nome.value.indexOf(caracteres_invalidos[i]) >= 0){
+							alert("nome invalido");
+							return;
+						}	
+					}
+				}
+			}
+		</script>
+	</body>
 </html>
