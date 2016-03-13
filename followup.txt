@@ -1,13 +1,13 @@
 	
-	- Estudar os estados (pseudo-classes) css
-	- Estudar eventos
-	- Bolar design do site
-	- Criaçao do backlog de desenvolvimento
+	- Estudar os estados (pseudo-classes) css - ok
+	- Estudar eventos - ok
+	- Bolar design do site - pendente
+ 	- Criaçao do backlog de desenvolvimento - pendente
 	
-http://www.geradorcpf.com/algoritmo_do_cpf.htm
+http://www.geradorcpf.com/algoritmo_do_cpf.htm - ok
 https://regex101.com/
 
-Bootstrap
+Bootstrap 
 JQuery
 Expressão regular
 
