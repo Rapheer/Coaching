@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aula JQuery - 01</title>
+	<script type="text/javascript" src="js/jquery-2.2.2.min.js">
+		$(document).ready(function() {
+			$("a").click(function() {
+				$("#titulo").css("color", "#0000FF");
+				$("#titulo").text("Estudo de JQuery");
+				$("#titulo").hide();
+				$("#titulo").fadeToggle();
+			});
+
+		});
+
+	</script>
+</head>
+<body>
+<h1 id="titulo">Hello World!</h1>
+<a href="#">Executar JavaScript</a>
+</body>
+</html>
