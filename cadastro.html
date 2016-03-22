@@ -102,7 +102,22 @@
 			<button type="button" id="enviaForm">Submit NOW!</button>
 		</form>
 		<br>
+		<script type="text/javascript" src="third_party/jQuery/jquery-2.2.2.min.js"></script>
 		<script type="text/javascript">
+			$(function (){
+				$('#enviaForm').on('click', function (){
+					var campo_nome = $('#nome'),
+						regExp = /[^1-9|\s|\^|\'|\"|\+|\-|\=|\)|\(|\\|\/|\~]/ig;
+
+					if ((!campo_nome.val().test(regExp)) || (campo_nome.val().length < 3)){
+						alert("nome inválido");
+						return;
+					}
+
+				});
+			});
+
+			/* Javascript Puro (Vanilla)
 			document.ready = function (){
 				document.getElementById('enviaForm').onclick = function () {
 					var campo_nome = document.getElementById('nome');
@@ -121,6 +136,7 @@
 					}
 				}
 			}
+			*/
 		</script>
 	</body>
 </html>
