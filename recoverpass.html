@@ -1,49 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X UA-Compatible" content="IE-edge">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="third_party/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="CSS/default.css">
+		<style type="text/css">
+		</style>
 
-	<title>Stream Games</title>
-	<link type="text/css" rel="stylesheet" href="css/main.css">
-		
+			<title>Stream Games</title>	
 </head>
 <body>
+<div class="container-fluid">
+							<div class="row">
+								<nav class="navbar navbar-default">
+									<div class="container">
+										<div class="navbar-header">
+											<span class="navbar-brand">Stream Games - What you play?</span>
+												</div>
+													<div class="collapse navbar-collapse">
+														<ul class="nav navbar-nav">
+															<li><a class="active" href="#profile">Profile</a></li>
+															<li><a href="#achivements">Achivements</a></li>
+															<li><a href="#feed">Feed</a></li>
+															<li><a href="#about">About</a></li>
+															<li><a href="#contact">Contact Us</a></li>
+														</ul>
+														<button type="button" class="btn btn-default navbar-btn"><a href="cadastro.html">Cadastre-se</a></button>
 
-<div id="header">
-			<h1>Stream Games - O que você joga?</h1>
-			<button type="button">Cadastre-se</button>
+												</div>
+											</div>
+										</nav>
+									
+</head>
+<body>
+		<div class="row">
+			<div class="col-md-12">
+				<form action="#" method="POST">
+						<h2>
+							Stream Games - O que você joga?
+						</h2>
+						<h4>
+							Está perdido? Ou você perdeu algo? Fique tranquilo! Por aqui conseguimos recuperar as informações vitais para seu acesso. Assim você poderá continuar mostrando aos seus amigos, o para quê você veio até o Stream Games! Preencha as informações a seguir para nos ajudar a te ajudar.
+						</h4>
+				</form>
+			</div>					
 		</div>
-		<h4>
-
-</head>
-<body>
-
-<h1>Stream Games - O que você joga?</h1>
-<h4>
-Está perdido? Ou você perdeu algo?<br>
-<p>Fique tranquilo! Por aqui conseguimos recuperar as informações vitais para seu acesso. Assim você poderá continuar mostrando aos seus amigos, o para quê você veio até o Stream Games!</p>
-Preencha as informações a seguir para nos ajudar a te ajudar.<br>
-</h4>
-<form>
-<fieldset>
-	<legend>Recuperação de Senha:</legend>
-	Insira seu email:
-	<input type="text" id="email"></input>
-<form action="MALITO:someone@example.com" method="post" enctype="text/plain">
-<fieldset>
-	<legend>Recuperação de Senha:</legend>
-	Nome de usuário:<br>
-	<input type="text" name="nome" id="nome"></input>
-	<br>
-	Insira seu email:<br>
-	<input type="text" id="email"></input>
-	<br>
-	<br>
-	<input type="reset" id="reset"></input>
-	<input type="submit" value="Recuperar!"></input>
-</fieldset>
-</form>
-
+				<div class="row">
+				<div class="col-md-6">
+					<fieldset>
+						<legend>Recuperação de Senha:</legend>
+								Nome de usuário:<br>
+								<input type="text" name="nome" id="nome"></input>
+								<br>
+								Insira seu email:<br>
+								<input type="text" id="email"></input>
+								<br>
+								<br>
+								<input type="reset" id="reset"></input>
+								<input type="submit" value="Recuperar!"></input>
+					</fieldset>
+					</div>
+					</div>
+					
 </body>
 </html>
