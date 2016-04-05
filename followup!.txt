@@ -1,0 +1,19 @@
+Software que utilizaremos para levantar um ambiente servidor:
+ 	-> APACHE;
+
+acesso ao localhost redirecionará para o apache homepage
+
+ambiente MySQL 5
+interpretador de php5
+conector com mysql com o php5
+
+-> foco no banco de dados;
+-> estudar orientação de objetos;
+-> chegar proximo possivel de terminar as paginas que temos;
+	-> index.html;
+	-> cadastro.html;
+	-> recoverpass.html;
+
+
+
+padrões de desenvolvimento = designer patterns php e JS.
