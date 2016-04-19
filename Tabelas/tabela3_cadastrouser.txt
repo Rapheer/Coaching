@@ -1,0 +1,8 @@
+tabela 3 - 
+
+criacao usuario
+
+id
+email
+senha
+apelido

@@ -1,0 +1,7 @@
+tabela 4 - 
+
+games
+
+id
+jogo preferido
+segundo jogo preferido
