@@ -1,0 +1,7 @@
+CREATE TABLE teste (
+ID INT( 6 ) UNSIGNED NOT NULL ,
+nome VARCHAR( 50 ) NOT NULL , 
+sobrenome VARCHAR( 15 ) NOT NULL ,
+cidade VARCHAR( 25 ) NOT NULL , 
+estado VARCHAR( 25 ) NOT NULL
+)
