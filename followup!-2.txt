@@ -1,0 +1,8 @@
+Follow Up semanal
+
+-> refazer as tabelas;
+-> relacionamentos;
+-> ajax (jquery);
+
+----------------------
+
